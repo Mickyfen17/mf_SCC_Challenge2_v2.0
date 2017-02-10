@@ -2,5 +2,13 @@ body {
   margin: 0;
   background-color: #bada55; }
 
-h1 {
-  color: aqua; }
+nav {
+  background: #2b2b2b; }
+  nav h4 {
+    color: #288cbf;
+    margin: 0; }
+  nav a {
+    color: #939393;
+    text-decoration: none; }
+  nav h2 {
+    color: #FFF; }
