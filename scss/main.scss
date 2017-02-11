@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 $badass: #bada55;
 $test: aqua;
+$bitter-font: 'Bitter', serif;
+$open-sans-font: 'Open Sans', sans-serif;
 
 body {
   margin: 0;
   background-color: $badass;
+  font-family: $open-sans-font;
 }
 
 // navbar styling
@@ -29,6 +35,7 @@ nav {
     margin: 0;
     padding-top: 7px;
     font-size: 2em;
+    font-family: $bitter-font;
     color: #FFF;
   }
 }
