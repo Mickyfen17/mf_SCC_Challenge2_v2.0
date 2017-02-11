@@ -8,16 +8,43 @@ body {
 
 // navbar styling
 nav {
+  position: relative;
+  height: 50px;
   background: #2b2b2b;
   h4 {
-    color: #288cbf;
-    margin: 0;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  margin: 0;
+  font-size: 0.6em;
+  color: #288cbf;
   }
   a {
     color: #939393;
     text-decoration: none;
+    display: none;
   }
   h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 7px;
+    font-size: 2em;
     color: #FFF;
   }
 }
+
+.navburger {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  height: 30px;
+}
+
+.profile-icon {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  height: 16px;
+}
+
+
