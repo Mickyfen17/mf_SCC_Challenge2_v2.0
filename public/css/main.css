@@ -46,22 +46,29 @@ nav {
 
 @media screen and (min-width: 500px) {
   nav {
-    height: 90px; }
+    height: 100px; }
     nav a {
       display: inline-block; }
     nav h4 {
-      top: 10px;
-      right: 20px;
+      top: 13px;
+      right: 25px;
       font-size: 0.7em;
       font-weight: 400; }
       nav h4:after {
-        content: " Username"; }
+        background: transparent url(../../images/nav_triangle.svg) no-repeat 60px 1px/12px;
+        content: " Username";
+        padding: 0 15px 0 0; }
     nav h2 {
       position: absolute;
       right: 15px;
-      top: 30px; }
+      top: 35px;
+      font-size: 2.4em; }
+      nav h2:after {
+        background: transparent url(../../images/ribbon.svg) no-repeat 0px 5px/30px;
+        padding: 0px 15px; }
   .navburger {
     display: none; }
   .profile-icon {
-    right: 115px;
+    top: 8px;
+    right: 135px;
     height: 20px; } }
