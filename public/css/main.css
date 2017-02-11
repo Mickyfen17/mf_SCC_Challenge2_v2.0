@@ -9,10 +9,13 @@ nav {
   position: relative;
   height: 50px;
   background: #2b2b2b; }
-  nav a {
-    color: #939393;
-    text-decoration: none;
+  nav .links-wrapper {
     display: none; }
+  nav a {
+    display: inline-block;
+    margin-left: 15px;
+    color: #939393;
+    text-decoration: none; }
   nav h4 {
     position: absolute;
     top: 8px;
@@ -47,8 +50,10 @@ nav {
 @media screen and (min-width: 500px) {
   nav {
     height: 100px; }
-    nav a {
-      display: inline-block; }
+    nav .links-wrapper {
+      position: absolute;
+      bottom: 20px;
+      display: block; }
     nav h4 {
       top: 13px;
       right: 25px;
