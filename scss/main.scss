@@ -17,18 +17,18 @@ nav {
   position: relative;
   height: 50px;
   background: #2b2b2b;
-  h4 {
-  position: absolute;
-  right: 6px;
-  top: 8px;
-  margin: 0;
-  font-size: 0.6em;
-  color: #288cbf;
-  }
   a {
     color: #939393;
     text-decoration: none;
     display: none;
+  }
+  h4 {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    margin: 0;
+    font-size: 0.6em;
+    color: #288cbf;
   }
   h2 {
     text-align: center;
@@ -39,7 +39,7 @@ nav {
     color: #FFF;
     &:after {
       background: transparent url(../../images/ribbon.svg)no-repeat 0px 5px / 24px;
-      padding: 0 20px;
+      padding: 0 12px;
       content: "";
     }
   }
@@ -60,3 +60,32 @@ nav {
 }
 
 
+@media screen and (min-width: 500px) {
+  nav {
+    height: 90px;
+    a {
+      display: inline-block;
+    }
+    h4 {
+      top: 10px;
+      right: 20px;
+      font-size: 0.7em;
+      font-weight: 400;
+      &:after {
+        content: " Username"
+      }
+    }
+    h2 {
+      position: absolute;
+      right: 15px;
+      top: 30px;
+    }
+  }
+  .navburger {
+    display: none;
+  }
+  .profile-icon {
+    right: 115px;
+    height: 20px;
+  }
+}

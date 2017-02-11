@@ -9,17 +9,17 @@ nav {
   position: relative;
   height: 50px;
   background: #2b2b2b; }
-  nav h4 {
-    position: absolute;
-    right: 6px;
-    top: 8px;
-    margin: 0;
-    font-size: 0.6em;
-    color: #288cbf; }
   nav a {
     color: #939393;
     text-decoration: none;
     display: none; }
+  nav h4 {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    margin: 0;
+    font-size: 0.6em;
+    color: #288cbf; }
   nav h2 {
     text-align: center;
     margin: 0;
@@ -29,7 +29,7 @@ nav {
     color: #FFF; }
     nav h2:after {
       background: transparent url(../../images/ribbon.svg) no-repeat 0px 5px/24px;
-      padding: 0 20px;
+      padding: 0 12px;
       content: ""; }
 
 .navburger {
@@ -43,3 +43,25 @@ nav {
   top: 5px;
   right: 40px;
   height: 16px; }
+
+@media screen and (min-width: 500px) {
+  nav {
+    height: 90px; }
+    nav a {
+      display: inline-block; }
+    nav h4 {
+      top: 10px;
+      right: 20px;
+      font-size: 0.7em;
+      font-weight: 400; }
+      nav h4:after {
+        content: " Username"; }
+    nav h2 {
+      position: absolute;
+      right: 15px;
+      top: 30px; }
+  .navburger {
+    display: none; }
+  .profile-icon {
+    right: 115px;
+    height: 20px; } }
