@@ -72,6 +72,12 @@ section {
 
 article {
   border: 1px solid grey; }
+  article img {
+    width: 100%; }
+  article .article-card-wrapper {
+    padding: 10px; }
+  article h4 {
+    margin: 0; }
 
 @media screen and (min-width: 580px) {
   nav {

@@ -101,6 +101,15 @@ section {
 // article styling
 article {
   border: 1px solid grey;
+  img {
+    width: 100%;
+  }
+  .article-card-wrapper {
+    padding: 10px;
+  }
+  h4 {
+    margin: 0;
+  }
 }
 
 // MEDIA Q's
