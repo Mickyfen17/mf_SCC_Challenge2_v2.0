@@ -76,7 +76,8 @@ article {
   margin-bottom: 10px;
   border: 1px solid #939393;
   color: #757575;
-  background: #FFF; }
+  background: #FFF;
+  box-shadow: 0px 0px 8px #757575; }
   article .arrow-image {
     position: absolute;
     top: 15px;
