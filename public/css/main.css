@@ -105,12 +105,12 @@ article {
     width: 45px;
     color: #FFF; }
     article .image-views-text p {
-      margin: 0 0 2px 0;
-      font-size: 0.7em;
+      margin: 0;
+      font-size: 0.8em;
       text-align: center;
       text-transform: uppercase; }
     article .image-views-text .view-count {
-      font-size: 1.6em; }
+      font-size: 2em; }
   article .article-card-wrapper {
     padding: 10px; }
   article h4 {
@@ -120,7 +120,7 @@ article {
     color: #939393;
     font-size: 0.7em; }
   article .a-tag-wrapper {
-    margin: 15px 5px;
+    margin: 20px 5px;
     padding: 5px;
     background: #efefef; }
     article .a-tag-wrapper a {
@@ -134,12 +134,12 @@ article {
     font-size: 0.7em;
     text-transform: uppercase; }
   article .playlist-name {
-    margin: 5px 0 15px 0;
-    font-size: 0.85em; }
+    margin: 5px 0 20px 0;
+    font-size: 0.95em; }
   article .attachments-number {
     margin: 2px 0 10px 2px;
     color: #52c4ff;
-    font-size: 1.5em; }
+    font-size: 2em; }
 
 @media screen and (min-width: 580px) {
   nav {

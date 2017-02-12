@@ -137,13 +137,13 @@ article {
     width: 45px;
     color: #FFF;
     p {
-      margin: 0 0 2px 0;
-      font-size: 0.7em;
+      margin: 0;
+      font-size: 0.8em;
       text-align: center;
       text-transform: uppercase;
     }
     .view-count {
-      font-size: 1.6em;
+      font-size: 2em;
     }
   }
   .article-card-wrapper {
@@ -158,7 +158,7 @@ article {
     font-size: 0.7em;
   }
   .a-tag-wrapper {
-    margin: 15px 5px;
+    margin: 20px 5px;
     padding: 5px;
     background: $body-background;
     a {
@@ -175,13 +175,13 @@ article {
     text-transform: uppercase;
   }
   .playlist-name {
-    margin: 5px 0 15px 0;
-    font-size: 0.85em;
+    margin: 5px 0 20px 0;
+    font-size: 0.95em;
   }
   .attachments-number {
     margin: 2px 0 10px 2px;
     color: #52c4ff;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 
