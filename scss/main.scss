@@ -18,7 +18,9 @@ body {
 
 // navbar styling
 nav {
-  position: relative;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
   height: 50px;
   background: $nav-background;
   .links-wrapper {
@@ -95,7 +97,7 @@ nav {
 section {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 40px 10px 10px 10px;
   text-align: center;
   h1 {
     text-align: left;
@@ -221,5 +223,8 @@ article {
     top: 8px;
     right: 135px;
     height: 20px;
+  }
+  section {
+    padding-top: 100px;
   }
 }
