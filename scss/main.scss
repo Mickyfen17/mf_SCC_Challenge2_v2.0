@@ -102,12 +102,37 @@ section {
 
 // article styling
 article {
+  position: relative;
   margin-bottom: 10px;
   border: 1px solid $nav-links-grey;
   color: $article-grey;
   background: $white;
-  img {
+  .arrow-image {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    height: 50px;
+  }
+  .article-image {
+    position: relative;
     width: 100%;
+  }
+  .image-views-text {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    color: #FFF;
+    p {
+      margin: 0 0 2px 0;
+      font-size: 0.7em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .view-count {
+      font-size: 1.6em;
+    }
   }
   .article-card-wrapper {
     padding: 10px;

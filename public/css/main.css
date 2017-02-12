@@ -72,12 +72,33 @@ section {
     color: #757575; }
 
 article {
+  position: relative;
   margin-bottom: 10px;
   border: 1px solid #939393;
   color: #757575;
   background: #FFF; }
-  article img {
+  article .arrow-image {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    height: 50px; }
+  article .article-image {
+    position: relative;
     width: 100%; }
+  article .image-views-text {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    color: #FFF; }
+    article .image-views-text p {
+      margin: 0 0 2px 0;
+      font-size: 0.7em;
+      text-align: center;
+      text-transform: uppercase; }
+    article .image-views-text .view-count {
+      font-size: 1.6em; }
   article .article-card-wrapper {
     padding: 10px; }
   article h4 {
