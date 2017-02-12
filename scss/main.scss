@@ -28,6 +28,7 @@ nav {
     margin-left: 15px;
     color: $nav-links-color;
     text-decoration: none;
+    text-transform: uppercase;
   }
   h4 {
     position: absolute;
@@ -66,8 +67,31 @@ nav {
   height: 16px;
 }
 
+.shares-link {
+  color: $white;
+  &:before {
+    background: transparent url(../../images/shares.svg)no-repeat 0px 3px / 16px;
+    padding: 0 12px;
+    content: "";
+  }
+}
+.playlists-link {
+  &:before {
+    background: transparent url(../../images/playlist.svg)no-repeat 0px 3px / 16px;
+    padding: 0 12px;
+    content: "";
+  }
+}
+.personal-vid-link {
+  &:before {
+    background: transparent url(../../images/personal_vid.svg)no-repeat 0px 3px / 16px;
+    padding: 0 12px;
+    content: "";
+  }
+}
 
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 580px) {
   nav {
     height: 100px;
     .links-wrapper {
