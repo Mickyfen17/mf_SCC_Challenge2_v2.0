@@ -84,7 +84,7 @@ article {
     margin: 0;
     font-size: 0.8em; }
   article .a-tag-wrapper {
-    margin: 10px 5px;
+    margin: 15px 5px;
     padding: 5px;
     background: lightgrey; }
     article .a-tag-wrapper a {
@@ -92,6 +92,16 @@ article {
       word-wrap: break-word;
       text-decoration: none;
       color: grey; }
+  article h5,
+  article .attachments {
+    margin: 0;
+    text-transform: uppercase; }
+  article .playlist-name {
+    margin: 5px 0 15px 0; }
+  article .attachments-number {
+    margin: 2px 0 10px 2px;
+    color: #52c4ff;
+    font-size: 1.5em; }
 
 @media screen and (min-width: 580px) {
   nav {

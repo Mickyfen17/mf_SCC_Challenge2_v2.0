@@ -117,7 +117,7 @@ article {
     font-size: 0.8em;
   }
   .a-tag-wrapper {
-    margin: 10px 5px;
+    margin: 15px 5px;
     padding: 5px;
     background: lightgrey;
     a {
@@ -126,6 +126,19 @@ article {
       text-decoration: none;
       color: grey;
     }
+  }
+  h5,
+  .attachments {
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .playlist-name {
+    margin: 5px 0 15px 0;
+  }
+  .attachments-number {
+    margin: 2px 0 10px 2px;
+    color: #52c4ff;
+    font-size: 1.5em;
   }
 }
 
