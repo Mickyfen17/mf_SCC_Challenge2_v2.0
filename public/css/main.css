@@ -71,13 +71,27 @@ section {
     font-weight: 400; }
 
 article {
-  border: 1px solid grey; }
+  margin-bottom: 10px;
+  border: 1px solid #939393;
+  background: #FFF; }
   article img {
     width: 100%; }
   article .article-card-wrapper {
     padding: 10px; }
   article h4 {
     margin: 0; }
+  article .date {
+    margin: 0;
+    font-size: 0.8em; }
+  article .a-tag-wrapper {
+    margin: 10px 5px;
+    padding: 5px;
+    background: lightgrey; }
+    article .a-tag-wrapper a {
+      font-size: 0.85em;
+      word-wrap: break-word;
+      text-decoration: none;
+      color: grey; }
 
 @media screen and (min-width: 580px) {
   nav {
