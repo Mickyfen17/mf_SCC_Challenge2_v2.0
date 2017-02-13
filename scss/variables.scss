@@ -1,0 +1,25 @@
+// colors
+$body-background: #efefef;
+$nav-background: #2b2b2b;
+$nav-links-grey: #939393;
+$article-grey: #757575;
+$blue: #288cbf;
+$white: #FFF;
+
+// font type
+$bitter-font: 'Bitter', serif;
+$open-sans-font: 'Open Sans', sans-serif;
+
+// images
+$header-ribbon-mobile: transparent url(../../images/ribbon.svg)no-repeat 0px 5px / 24px;
+$header-ribbon-full: transparent url(../../images/ribbon.svg) no-repeat 0px 5px/30px;
+$share-img: transparent url(../../images/shares.svg)no-repeat 0px 3px / 16px;
+$playlist-img: transparent url(../../images/playlist.svg)no-repeat 0px 3px / 16px;
+$personal-vid-img: transparent url(../../images/personal_vid.svg)no-repeat 0px 3px / 16px;
+$nav_triangle: transparent url(../../images/nav_triangle.svg)no-repeat 60px 1px / 12px;
+
+// mixins
+@mixin navlink-img {
+  padding: 0 12px;
+  content: "";
+}
